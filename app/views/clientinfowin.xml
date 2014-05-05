@@ -1,0 +1,43 @@
+<Alloy>
+	<Window id = "clientInfoWin" modal="true" navBarHidden="true" fullscreen="true">
+		<View class="container">
+			<ScrollView id="containerView">
+				<Button id="getAddressBtn" onClick="getClientInfo"></Button>
+				<ImageView id="logoImgView"></ImageView>
+				<View id="bannerView">
+					<Label id="headLineLbl"></Label>
+					<Label id="descriptionLbl"></Label>
+				</View>
+				<ImageView id="starterImage"></ImageView>
+				<TextField id="socialSecurityNumTxtfield"></TextField>
+				<TextField id="firstNameTxtfield"></TextField>
+				<TextField id="lastNameTxtfield"></TextField>
+				<TextField id="streetAddressTxtfield"></TextField>
+				<TextField id="zipcodeTxtfield"></TextField>
+				<TextField id="cityTxtfield"></TextField>
+				<TextField id="homePhoneTxtfield"></TextField>
+				<TextField id="emailAddressTxtfield"></TextField>
+				<Button id="sendOrderBtn"></Button>
+				<Button id="changeStarterBtn"></Button>
+				<Label id="readConditions"></Label>
+				<Label id="conditions" onClick="showConditions"></Label>>
+			</ScrollView>
+			<ImageView id="thankYouView"></ImageView>
+			<View id="parentView">
+				<ImageView id="parentLogoImgView"></ImageView>
+				<Label id="parentHeadLbl"></Label>
+				<View id="parentBannerView">
+					<Label id="parentBannerLbl"></Label>
+				</View>
+				<ScrollView id="parentViewScroll">
+					<View id="gridView"></View>
+				</ScrollView>
+			</View>
+			<View id="conditionView">
+				<Button id="closeConditionsBtn" onClick="closeConditionsWin"></Button>>
+			</View>
+			<Label id="conditionHeadLbl">
+			<Label id="conditionBodyLbl">
+		</View>
+	</Window>
+</Alloy>

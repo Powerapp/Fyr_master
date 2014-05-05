@@ -1,0 +1,33 @@
+<Alloy>
+	<Window id = "adminWin" modal="true" navBarHidden="true" fullscreen="true">
+		<View class="admin">
+			<ImageView id="logo"></ImageView>
+			<Button id="createTxtFileWinBtn" onClick="openTxtFileWin"></Button>
+			<View id="banner">
+				<Label id="headLineLbl"></Label>
+				<Label id="descriptionLbl"></Label>
+			</View>
+			<Button id="pickPhotoBtn" onClick="pickPhotoFromGallery"></Button>
+			<ImageView id="imageFromGallery"></ImageView>
+			<TextField id="ocrTxtfield"></TextField>
+			<TextField id="starternameTxtfield"></TextField>
+			<Label id="starternameDescriptionLbl"></Label>
+			<TextField id="taglineTxtfield"></TextField>
+			<Label id="taglineDescriptionLbl"></Label>
+			<Button id="addToListBtn" onClick="addToList"></Button>
+			<TableView id="adminTableView">
+				<TableViewRow id="adminTableViewRow">
+					<ImageView id="starterImgView"></ImageView>
+					<Label id="ocrNumberLbl"></Label>
+					<Label id="starterNameLbl"></Label>
+					<Label id="taglineLbl"></Label>
+				</TableViewRow>
+			</TableView>
+			<View id="changeOcrView">
+				<TextField id="changeOcrTxtfield"></TextField>
+				<Button id="closeBtn" onClick="closeChangeOcrView"></Button>
+				<Button id="doneBtn"></Button>
+			</View>
+		</View>
+	</Window>
+</Alloy>

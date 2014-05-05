@@ -1,0 +1,69 @@
+
+"#starterwin" : {
+	backgroundColor:"#fff",
+	orientationModes: [Ti.UI.PORTRAIT, Ti.UI.UPSIDE_PORTRAIT],
+  
+	},
+"#admin":{
+	width : "auto",
+    height : "auto",
+    right : "10dp",
+    top : "10dp",
+    title : "Admin",
+    visible : false,
+	},
+"#logo":{
+	width:"auto",
+    height:"auto",
+    image:"/images/logo.png",
+    top:"20dp",
+    left:"20dp",
+	},
+
+"#banner":{
+	top:"125dp",
+    width:"100%",
+    height:"90dp",
+    backgroundColor:"#006699"
+   },
+
+"#headLine":{
+	top:"70dp",
+    width:"auto",
+    height:"auto",
+    color:"#4C4C4C",
+    text: "Välj din favoritservis",
+    font:{
+    	fontSize:"36sp",
+    	fontFamily: "GretaTextStdRegular"
+    		   },
+},
+"#bannerLbl":{
+	width:"auto",
+    height:"auto",
+    color:"#fff",
+    textAlign:"center",
+    text: "Bläddra bland serviserna och klicka på den du gillar bäst.\nPå nästa sida får du fylla i beställningsformuläret.",
+	font:{
+		fontSize:"24sp",
+		fontFamily: "GretaTextStdLight"
+		   },
+},
+"#containerScroll":{
+	contentHeight: Ti.UI.SIZE,
+    contentWidth: Ti.UI.SIZE,
+    height: "auto",
+   	width: "100%",
+    top:"210dp",
+    backgroundColor:"#fff",
+    scrollType:"vertical"
+},
+"#gridView":{
+	height: Ti.UI.SIZE,
+    layout: 'horizontal',
+    left: 0,
+    right: 0,
+    top: 0,
+    bottom:0,
+    width: Ti.UI.FILL,
+}

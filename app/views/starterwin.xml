@@ -1,0 +1,16 @@
+<Alloy>
+	<Window id = "starterwin" modal="true" navBarHidden="true" fullscreen="true">
+		<View id="starter">
+			<Button id="admin" onClick="openAminWin"></Button>
+			<ImageView id ="logo"></ImageView>
+			<Label id="headLine"></Label>
+			<View id="banner">
+				<Label id="bannerLbl"></Label>
+			</View>
+			<ScrollView id="containerScroll">
+				<View id="gridView"></View>>
+			</ScrollView>
+			
+		</View>
+	</Window>
+</Alloy>

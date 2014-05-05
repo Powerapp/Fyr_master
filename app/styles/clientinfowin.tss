@@ -1,0 +1,348 @@
+"#clientInfoWin":{
+ 	backgroundColor:"#F8F8F8",
+ 	orientationModes: [Ti.UI.PORTRAIT, Ti.UI.UPSIDE_PORTRAIT],
+},
+
+"#containerView":{
+	widht:"100%",
+	height:"100%",
+	top:"0dp",
+	backgroundColor:"#F8F8F8",
+    scrollType:"vertical"
+},
+"#getAddressBtn":{
+	width:"260dp",
+	height:"60dp",
+	top:"780dp",
+	right:"100dp",
+	title:"Hämta bokföringsadress",
+	color:"#006699",
+	backgroundColor:"#fff",
+	borderWidth:"3dp",
+	borderColor:"#006699",
+	visible:true,
+	font:{
+		fontSize:"24sp",
+		fontFamily: "GretaTextStdRegularItalic"
+		},
+},
+"#logoImgView":{
+	top:"30dp",
+	left:"20dp",
+	image:"/images/logo.png",
+},
+"#bannerView":{
+	width:"100%",
+	height:"90dp",
+	top:"80dp",
+	backgroundColor:"#006699",
+},
+"#headLineLbl":{
+	width:"auto",
+	height:"auto",
+	top:"10dp",
+	color:"#fff",
+	font:{
+	      fontSize:"36sp",
+	      fontFamily: "GretaTextStdLight"
+	   },
+},
+"#descriptionLbl":{
+	width:"auto",
+	height:"auto",
+	bottom:"5dp",
+	color:"#fff",
+	font:{
+	      fontSize:"24sp",
+	      fontFamily: "GretaTextStdRegularItalic"
+	   },
+},
+"#starterImage":{
+	width:"630dp",
+	height:"500dp",
+	top:"205dp",
+},
+"#socialSecurityNumTxtfield":{
+	width:"310dp",
+	top:"790dp",
+	height:"44dp",
+	left:"83dp",
+	color:"#828282",
+	hintText:"Personnummer 10 siffror",
+	keyboardType:Ti.UI.KEYBOARD_NUMBER_PAD,
+	returnKeyType:Ti.UI.RETURNKEY_NEXT,
+	font:{
+	      fontSize:"20sp",
+	      fontFamily:"GretaTextStdLight"
+	   },
+},
+"#firstNameTxtfield":{
+	width:"310dp",
+	height:"44dp",
+	top:"870dp",
+	left:"83dp",
+	hintText:"Förnamn",
+	color:"#828282",
+	keyboardType:Ti.UI.KEYBOARD_DEFAULT,
+	returnKeyType:Ti.UI.RETURNKEY_NEXT,
+	autocapitalization:Ti.UI.TEXT_AUTOCAPITALIZATION_WORDS,
+	autocorrect:false,
+	font:{
+	      fontSize:"20sp",
+	      fontFamily:"GretaTextStdLight"
+	   },
+}
+"#lastNameTxtfield":{
+	width:"310dp",
+	height:"44dp",
+	top:"870dp",
+	right:"87dp",
+	hintText:"Efternamn",
+	color:"#828282",
+	borderWidth:"1dp",
+	keyboardType:Ti.UI.KEYBOARD_DEFAULT,
+	returnKeyType:Ti.UI.RETURNKEY_NEXT,
+	autocapitalization:Ti.UI.TEXT_AUTOCAPITALIZATION_WORDS,
+	autocorrect:false,
+	font:{
+	      fontSize:"20sp",
+	      fontFamily:"GretaTextStdLight"
+	   },
+},
+"#streetAddressTxtfield":{
+	width:"630dp",
+	height:"44dp",
+	left:"83dp",
+	top :"925dp",
+	hintText:"Adress",
+	color:"#828282",
+	keyboardType:Ti.UI.KEYBOARD_NAMEPHONE_PAD,
+	returnKeyType:Ti.UI.RETURNKEY_NEXT,
+	autocapitalization:Ti.UI.TEXT_AUTOCAPITALIZATION_WORDS,
+	autocorrect:false,
+	font:{
+	      fontSize:"20sp",
+	      fontFamily:"GretaTextStdLight"
+	   },
+},
+"#zipcodeTxtfield":{
+	width:"310dp",
+	height:"44dp",
+	top:"980dp",
+	left:"83dp",
+	hintText:"Postnummer",
+	color:"#828282",
+	borderWidth:"1dp",
+	keyboardType:Ti.UI.KEYBOARD_NUMBER_PAD,
+	returnKeyType:Ti.UI.RETURNKEY_NEXT,
+	font:{
+	      fontSize:"20sp",
+	      fontFamily:"GretaTextStdLight"
+	   },
+},
+"#cityTxtfield":{
+	width:"310dp",
+	height:"44dp",
+	top:"980dp",
+	right:"87dp",
+	hintText:"Ort",
+	color:"#828282",
+	keyboardType:Ti.UI.KEYBOARD_DEFAULT,
+	returnKeyType:Ti.UI.RETURNKEY_NEXT,
+	autocapitalization:Ti.UI.TEXT_AUTOCAPITALIZATION_WORDS,
+	autocorrect:false,
+	font:{
+	      fontSize:"20sp",
+	      fontFamily:"GretaTextStdLight"
+	   },
+},
+"#homePhoneTxtfield":{
+	width:"630dp",
+	height:"44dp",
+	top:"1035dp",
+	left:"83dp",
+	hintText:"Telefon",
+	color:"#828282",
+	keyboardType:Ti.UI.KEYBOARD_NUMBER_PAD,
+	returnKeyType:Ti.UI.RETURNKEY_NEXT,
+	font:{
+	      fontSize:"20sp",
+	      fontFamily:"GretaTextStdLight"
+	   },
+},
+"#emailAddressTxtfield":{
+	width:"630dp",
+	height:"44dp",
+	top:"1090dp",
+	left:"83dp",
+	hintText:"Email",
+	color:"#828282",
+	keyboardType:Ti.UI.KEYBOARD_EMAIL,
+	returnKeyType:Ti.UI.RETURNKEY_DONE,
+	font:{
+	      fontSize:"20sp",
+	      fontFamily:"GretaTextStdLight"
+	   },
+},
+"#thankYouView":{
+	width:"100%",
+	height:"100%",
+	image:"/images/tack.png",
+	visible:false
+},
+"#sendOrderBtn":{
+	width:"220dp",
+	height:"60dp",
+	top:"1140dp",
+	right:"87dp",
+	title:"Bekräfta ordern",
+	color:"#fff",
+	backgroundColor:"#006699",
+	font:{
+		fontSize:"24sp",
+		fontFamily:"GretaTextStdRegularItalic"
+		   },
+},
+"#changeStarterBtn":{
+	width:"auto",
+	height:"60dp",
+	top:"1140dp",
+	left:"95dp",
+	title:"Välj annan servis",
+	color:"#006699",
+	backgroundColor:"transparent",
+	font:{
+		fontSize:"24sp",
+		fontFamily: "GretaTextStdRegularItalic"
+		   },
+},
+"#readConditions":{
+	width:"auto",
+	height:"auto",
+	top:"1230dp",
+	left:"120dp",
+	text:"Genom att bekräfta ordern godkänner du",
+	color:"#4C4C4C",
+	font:{
+		fontSize:"20sp",
+		fontFamily: "GretaTextStdMedium"
+		   },
+},
+"#conditions":{
+	width:"auto",
+	height:"auto",
+	top:"1230dp",
+	left:"483dp",
+	text:"beställningsvillkoren",
+	color:"#006699",
+	font:{
+		fontSize:"20sp",
+		fontFamily: "GretaTextStdMedium"
+		   },
+}
+"#parentView":{
+	width:"100%",
+	height:"100%",
+	backgroundColor:"#fff",
+	visible:false,
+},
+"#parentLogoImgView":{
+	width:"auto",
+    height:"auto",
+    image:"/images/logo.png",
+    top:"20dp",
+    left:"20dp",
+},
+"#parentBannerView":{
+	top:"125dp",
+    width:"100%",
+    height:"90dp",
+    backgroundColor:"#006699"
+}
+"#parentHeadLbl":{
+	top:"70dp",
+    width:"auto",
+    height:"auto",
+    color:"#4C4C4C",
+    text: "Välj din favoritservis",
+    font:{
+    	fontSize:"36sp",
+    	fontFamily: "GretaTextStdRegular"
+    	},
+},
+"#parentBannerLbl":{
+	width:"auto",
+    height:"auto",
+    color:"#fff",
+    textAlign:"center",
+    text: "Bläddra bland serviserna och klicka på den du gillar bäst.\nPå nästa sida får du fylla i beställningsformuläret.",
+	font:{
+		fontSize:"24sp",
+		fontFamily: "GretaTextStdLight"
+		},
+},
+"#parentViewScroll":{
+	contentHeight: Ti.UI.SIZE,
+	contentWidth: Ti.UI.SIZE,
+	height: "auto",
+	width: "100%",
+	top:"210dp",
+	backgroundColor:"#fff",//"#E5E5E5",
+	scrollType:"vertical",
+},
+"#gridView":{
+	 height: Ti.UI.SIZE,
+	 layout: 'horizontal',
+	 left: 0,
+	 right: 0,
+	 top: 0,
+	 bottom:0,
+	 width: Ti.UI.FILL,
+},
+"#conditionView":{
+	width:"640dp",
+	height:"650dp",
+	top:"205dp",
+	backgroundColor:"#fff",
+	visible:false
+},
+"#closeConditionsBtn":{
+	width:"44dp",
+	height:"44dp",
+	top:"10dp",
+	right:"10dp",
+	title:"X",
+	borderWidth:"3dp",
+	borderColor:"#006699",
+	color:"#006699",
+	font:{fontSize:"30sp"},
+	backgroundColor:"#fff",
+	visible:false,
+	
+},
+"#conditionHeadLbl":{
+	text:"Kampanjvillkor",
+	color:"#000",
+	width:"auto",
+	height:"auto",
+	top:"220dp",
+	left:"100dp",
+	visible:false,
+	textAlign:"left",
+	font:{
+		fontSize:"30sp",
+		fontFamily: "GretaTextStdRegular"
+		},
+},
+"#conditionBodyLbl":{
+	html:"1. Erbjudandet gäller t.o.m. 30/06/2014. Endast ett erbjudande per hushåll och endast<br>kunder som inte tidigare köpt av servisen/serien.<br><br>2. Jag blir gratis och utan förpliktelser medlem i Fyrklöverns Stjärnklubb. Som<br>klubbmedlem riskerar jag inte att gå miste om några erbjudanden och jag får<br>information skriftligen, per telefon eller e-post när Fyrklövern har kampanjer.<br><br>3. Fyrklövern accepterar bara order från personer över 18 år och förbehåller sig rätten att<br>godkänna beställningen. Kreditkontroll kan komma att göras.<br><br>4. Vi lagrar och uppdaterar personuppgifter för att kunna administrera<br>kundförhållanden och lämna fördelaktiga erbjudanden från oss eller våra<br>samarbetspartners samt uppfylla våra garantiåtaganden. Om du inte önskar<br>erbjudanden från våra partners, är du välkommen att kontakta vår kundtjänst på<br>040-665 45 50.<br><br>5. Jag accepterar att få nyhetsbrev från Fyrklövern AB skickade till min epost.<br>Jag kan när som helst avbeställa detta val genom att ringa in till Fyrklövern kundtjänst. Jag får en unik möjlighet att duka hemma. Därefter får jag ett kuvert med mat- och förrättstallrik en gång i månaden till det fördelaktiga samlarpriset 349:- (ord. 498:-). Serien består av 12 kuvert, men jag bestämmer själv hur många jag vill ha.Porto 49:- tillkommer per leverans.<br><br>Öppettider kundservice:<br>Måndagar - torsdagar: 8.30 - 17.00<br>Fredagar: 8.30 - 15.00<br>Lördagar, söndagar och helgdagar är det stängt<br><br>Du kan alltid nå oss på: kundtjanst@fyrklovern.se",
+	color:"#000",
+	width:"600dp",
+	height:"auto",
+	top:"265dp",
+	visible:false,
+	font:{
+		fontSize:"16sp",
+		fontFamily: "GretaTextStdLight"
+		},
+}

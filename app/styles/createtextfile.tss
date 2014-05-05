@@ -1,0 +1,71 @@
+"#createTxtFileWin" : {
+	   orientationModes: [Ti.UI.PORTRAIT, Ti.UI.UPSIDE_PORTRAIT],
+	   backgroundColor:"#F8F8F8"
+},
+"#logo":{
+	top:"30dp",
+	left:"20dp",
+	image:"/images/logo.png",
+},
+"#banner":{
+	width:"100%",
+	height:"90dp",
+	top:"80dp",
+	backgroundColor:"#006699",
+},
+"#headLineLbl":{
+	text:"Vid dagens slut:",
+	width:"auto",
+	height:"auto",
+	top:"7dp",
+	color:"#fff",
+	font:{
+	      fontSize:"36sp",
+	      fontFamily: "GretaTextStdLight"
+	   },
+},
+"#descriptionLbl":{
+	text:"Maila in textfilen med beställningar genom att klicka på knappen nedan",
+	width:"auto",
+	height:"auto",
+	bottom:"7dp",
+	color:"#fff",
+	font:{
+	      fontSize:"24sp",
+	      fontFamily: "GretaTextStdLight"
+	   },
+},
+"#adminWinBtn":{
+	width:"160dp",
+	height:"60dp",
+	top:"10dp",
+	right:"30dp",
+	title:"Admin",
+	color:"#fff",
+	backgroundColor:"#006699",
+	font:{
+		fontSize:"24sp",
+		fontFamily: "GretaTextStdRegularItalic"
+		   },
+},
+"#createTxtFileBtn":{
+	width:"366dp",
+	height:"100dp",
+	top:"260dp",
+	title:"Maila in beställningsfilen",
+	color:"#fff",
+	backgroundColor:"#006699",
+	font:{
+		fontSize:"24sp",
+		fontFamily: "GretaTextStdRegularItalic"
+		   },
+},
+"#txtFileTableView":{
+	backgroundColor:'#fff',
+	top:'450dp',
+	left:'4dp',
+	right:'4dp',
+	bottom:0,
+	color:"#000",
+	data:null,
+}

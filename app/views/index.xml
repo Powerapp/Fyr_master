@@ -1,0 +1,5 @@
+<Alloy>
+	<Window class="container" navBarHidden="true" fullscreen ="true" modal="true" exitOnClose="true">
+			<ImageView id="welcome" onClick="openStarterWin" ></ImageView>
+	</Window>
+</Alloy>

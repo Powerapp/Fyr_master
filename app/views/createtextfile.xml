@@ -1,0 +1,14 @@
+<Alloy>
+	<Window id = "createTxtFileWin" modal="true" navBarHidden="true" fullscreen="true">
+	<View class="container">
+		<ImageView id="logo"></ImageView>
+		<Button id="adminWinBtn" onClick="openAdminWin"></Button>
+		<View id="banner">
+				<Label id="headLineLbl"></Label>
+				<Label id="descriptionLbl"></Label>
+			</View>
+		<Button id="createTxtFileBtn"></Button>
+		<TableView id="txtFileTableView" onClick="clickedRow"></TableView>>
+	</View>
+	</Window>
+</Alloy>
